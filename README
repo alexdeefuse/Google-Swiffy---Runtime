@@ -1,0 +1,15 @@
+This is the exact Google's Swiffy Runtime and fixes the compatibility issue with Jquery and Zepto.
+
+I had to change this for a project i'm working on with Zepto. The project was already started and couldn't rewrite all the $ instances that cause the errors.
+Basically what i did is to replace all the $[index] with $__[index].
+
+--
+
+Copyright 2011 Google Inc.
+Swiffy runtime version 3.7.0
+
+In addition to the Google Terms of Service (http://www.google.com/accounts/TOS),
+Google grants you and the Google Swiffy end users a personal, worldwide,
+royalty-free, non-assignable and non-exclusive license to use the Google Swiffy
+runtime to host it for Google Swiffy end users and to use it in connection with
+the Google Swiffy service.
